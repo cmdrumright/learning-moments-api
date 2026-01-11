@@ -3,6 +3,7 @@ Table user {
     name string
     email string
     cohort string
+    password string
 }
 
 Table post {
