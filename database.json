@@ -1,67 +1,71 @@
 {
-    "users": [
-        {
-          "id": 1,
-          "fullName": "Ash Katchum",
-          "email": "akat@ceruleanu.edu",
-          "cohort": "79",
-          "password": "iL1keC0ding!"
-        },
-        {
-          "id": 2,
-          "fullName": "Brock Stone",
-          "email": "Brocktherock@pmail.com",
-          "cohort": "78",
-          "password": "myP4ssI5S3cure@"
-        }
-    ],
-    "posts": [
-        {
-          "id": 1,
-          "title": "How to make databases",
-          "body": "Developers hate this one simple trick",
-          "date": "01/08/2026",
-          "authorId": 1,
-          "topicId": 1
-        },
-        {
-          "id": 2,
-          "title": "JS how to write for loops",
-          "body": "I thought this was google",
-          "date": "01/11/2026",
-          "authorId": 2,
-          "topicId": 3
-        }
-    ],
-    "topics": [
-        {
-          "id": 1,
-          "name": "Databases"
-        },
-        {
-          "id": 2,
-          "name": "React"
-        },
-        {
-          "id": 3,
-          "name": "Loops"
-        }
-    ],
-    "postLikes": [
-        {
-          "id": 1,
-          "userId": 1,
-          "postId": 1
-        },
-        {
-          "id": 2,
-          "userId": 2,
-          "postId": 1
-        },
-        {
-          "id": 3,
-          "userId": 2,
-          "postId": 2
-        }
-    ]
+  "users": [
+    {
+      "id": 1,
+      "fullName": "Ash Katchum",
+      "email": "akat@ceruleanu.edu",
+      "cohort": 79
+    },
+    {
+      "id": 2,
+      "fullName": "Brock Stone",
+      "email": "Brocktherock@pmail.com",
+      "cohort": 78
+    },
+    {
+      "email": "JS@gmail.com",
+      "fullName": "John Spark",
+      "cohort": 95,
+      "id": 3
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "title": "How to make databases",
+      "body": "Developers hate this one simple trick",
+      "date": "01/08/2026",
+      "authorId": 1,
+      "topicId": 1
+    },
+    {
+      "id": 2,
+      "title": "JS how to write for loops",
+      "body": "I thought this was google",
+      "date": "01/11/2026",
+      "authorId": 2,
+      "topicId": 3
+    }
+  ],
+  "topics": [
+    {
+      "id": 1,
+      "name": "Databases"
+    },
+    {
+      "id": 2,
+      "name": "React"
+    },
+    {
+      "id": 3,
+      "name": "Loops"
+    }
+  ],
+  "postLikes": [
+    {
+      "id": 1,
+      "userId": 1,
+      "postId": 1
+    },
+    {
+      "id": 2,
+      "userId": 2,
+      "postId": 1
+    },
+    {
+      "id": 3,
+      "userId": 2,
+      "postId": 2
+    }
+  ]
 }

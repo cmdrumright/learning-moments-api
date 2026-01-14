@@ -1,6 +1,6 @@
 Table user {
     id int [pk, increment]
-    name string
+    fullName string
     email string
     cohort string
     password string
