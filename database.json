@@ -25,7 +25,7 @@
       "title": "How to make databases",
       "body": "Developers hate this one simple trick",
       "date": "01/08/2026",
-      "authorId": 1,
+      "userId": 1,
       "topicId": 1
     },
     {
@@ -33,7 +33,7 @@
       "title": "JS how to write for loops",
       "body": "I thought this was google",
       "date": "01/11/2026",
-      "authorId": 2,
+      "userId": 2,
       "topicId": 3
     }
   ],
@@ -52,20 +52,5 @@
     }
   ],
   "postLikes": [
-    {
-      "id": 1,
-      "userId": 1,
-      "postId": 1
-    },
-    {
-      "id": 2,
-      "userId": 2,
-      "postId": 1
-    },
-    {
-      "id": 3,
-      "userId": 2,
-      "postId": 2
-    }
   ]
 }
